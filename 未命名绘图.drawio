@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T05:52:02.412Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JBJ-3PBbBLecrTUK4kSi" version="14.1.2" type="github"><diagram id="v3bVZjbQUgOWOJUHeKNC" name="第 1 页">7Vldb9sgFP01SN1DK38mzmOcuN2ktKvWSVsfqU1sVmwyjNt4v34Qgz8SJ8sWVYnWvFTcAxfDPZwjSIE9SZc3DC6SWxohAiwjWgJ7Cixr5JnirwTKCnCtQQXEDEcVZDbAA/6FFGgotMARyjsDOaWE40UXDGmWoZB3MMgYfe0Om1PS/eoCxmgDeAgh2US/4YgnFepZwwb/iHCc6C+bg1HVk0I9WO0kT2BEX1uQHQB7wijlVStdThCRtdN1qfKut/TWC2Mo4/skPN6Fjz/T0P186375enf5cjMyLi/VLC+QFGrDIBiCkQPGHggGwPOAP7wocsQ+qE3wUlcmf8UpgZmI/DDBJJrBkhZyJTmH4bOO/IQy/ItmHBLRZQpAdDOuiLaNzogHmSlgiTJaZBGKVNJc9Ksc09GxWouxmpTR55ohS+ajXIy/1+UxamgGc66XoimRvRHMk9X3ZAAJjjPRDkU2YgJQdUKMo+VWAsyaViEHRFPEWSmG6AR9EpQUPBW+NufKHCgsaZ8pnQfVWY7rqRu6RUMx/hfsW5vsW34GUwSkSm3TWG3cF3Osk6/rQ9Cc1+WfUEJFraYZXZ2KOSZkDcoXMMRZPFtlTZ01YiVtssJYyG+sPsDpQjMHn2q6GeWQt2JBguZ0L6K2a2GTPcWWvSdbo7ciy+6Vqu8Dz9GN4QVlMcxEqTim2VmyB0vWdbqSHR1dss7+km3H1ZY/vQ8h26ct5OEGhW3V9nCEInElUSFlPKExzSAJGrSlPFnEZsyMyqqvyvkDcV4qgmDBqVQxT7XCRUFZ+V3mX7k6fGz3TZdq8ioqVVStVS5wt8LEfmjBQrSjLK663UEWo13sOv3sMkRE/V666+jjTqXeUyxWuFXp9rqCq3WprLUTUC/j3w+F2+PuHhC3Z28CAgf4U+BNL0IoZcdLEFwDfwK80dnhD3V42+7yfgIWP9jP4v9gGv+jsbunbezecZ277dvGlVX7+Ntbt7WndQ8OtO6D2DH73rrCWcfA81cNH/iDs6EefGX2uobqHN9Qzd537phzhp8Kjsyur9a4tQW334XXmif+HDb73sPixmQAzwaBK0U9ds5yPvhHK+f05Nz7Bj7Lebecj/YoFmHzI3f1XGr+U2AHvwE=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-08T05:54:39.536Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="vsXvuIJUI5s3-w1D_NTI" version="14.1.2" type="github">
+  <diagram id="v3bVZjbQUgOWOJUHeKNC" name="第 1 页">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YNcYqmc5OM5RTN-vG90--1" value="用户(user)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--2" value="+name&#xa;+id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YNcYqmc5OM5RTN-vG90--1" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--3" value="组织(organization)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--4" value="+name&#xa;+id&#xa;+parentId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YNcYqmc5OM5RTN-vG90--3" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--7" value="organizationId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YNcYqmc5OM5RTN-vG90--5" target="YNcYqmc5OM5RTN-vG90--4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--5" value="职位(capacity）" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="330" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--6" value="+name&#xa;+organizationId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YNcYqmc5OM5RTN-vG90--5" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="YNcYqmc5OM5RTN-vG90--2" target="YNcYqmc5OM5RTN-vG90--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--11" value="事件" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-140" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--12" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YNcYqmc5OM5RTN-vG90--11" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--13" value="考勤" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-140" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YNcYqmc5OM5RTN-vG90--14" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YNcYqmc5OM5RTN-vG90--13" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
